@@ -5,9 +5,41 @@ body {
 h1 {
     color: darkred;
     text-decoration: underline;
+    font-weight: bold;
 }
 
-ul li,
-ul a {
+div.title img {
+    height: 200px;
+    width: auto;
+}
+
+div.title,
+h2 {
+    text-align: center;
+}
+
+ul.recipe-list li,
+ul.recipe-list a {
     color: rgb(173, 128, 14)
+}
+
+
+.title,
+.ingredients {
+    background-color: aliceblue;
+    color: darkred;
+}
+
+.description,
+.steps {
+    background-color: lightyellow;
+    color: darkblue;
+}
+
+div.description p {
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
 }
