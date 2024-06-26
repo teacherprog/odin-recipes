@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,6 +12,34 @@ h1 {
     font-weight: bold;
 }
 
+/* main page below */
+
+#main-title {
+    background-color: goldenrod;
+    width: 300px;
+    padding: 10px;
+    margin: 8px auto;
+    text-align: center;
+}
+
+/* recipe pages controlled below */
+
+div.title {
+    height: auto;
+    width: auto;
+    margin: 5px 20px;
+    padding: 10px 5px 30px 5px;
+}
+
+.description,
+.ingredients,
+.steps {
+    height: auto;
+    width: auto;
+    margin: 5px 20px;
+    padding: 10px 5px
+}
+
 div.title img {
     height: 200px;
     width: auto;
@@ -16,11 +48,14 @@ div.title img {
 div.title,
 h2 {
     text-align: center;
+    margin: 5px;
 }
 
 ul.recipe-list li,
 ul.recipe-list a {
-    color: rgb(173, 128, 14)
+    color: rgb(173, 128, 14);
+    padding: 5px;
+    
 }
 
 

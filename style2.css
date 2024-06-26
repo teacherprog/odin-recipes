@@ -1,0 +1,89 @@
+/* universal rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+
+.page-header {
+    width: 400px;
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+    margin: 10px auto;
+    text-align: center;
+    ;
+}
+
+.page-header a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    width: 800px;
+    color: maroon;
+    margin: 10px auto;
+    text-align: center;
+}
+
+h2 {
+    color: maroon;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* div {
+    width: 800px;
+    margin: 10px auto;
+} */
+
+.whitebackground {
+    width: 800px;
+    background-color: white;
+    padding: 5px 0px 5px 0px;
+    margin: 10px auto;
+}
+
+li {
+    list-style-position: inside;
+}
+
+
+
+/* styling homepage */
+
+.recipe-line {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipe-list button {
+    font-size: 16px;
+    width: 160px;
+    height: 68px;
+    border: 1px black solid;
+    padding: 10px;
+}
+
+/* styling recipe pages */
+
+.description,
+.ingredients,
+.steps {
+    padding: 20px 40px;
+}
+
+.title img {
+    display: block;
+    height: 200px;
+    width: auto;
+    margin: 0 auto;
+}
